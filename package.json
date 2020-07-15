@@ -9,7 +9,7 @@
         "start": "node ./index.js",
         "watch": "nodemon ./index.js",
         "lint": "eslint .",
-        "test": "mocha"
+        "test": "nodemon --exec \"mocha -R min\""
     },
     "repository": {
         "type": "git",
